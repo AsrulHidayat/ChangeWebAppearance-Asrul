@@ -1,0 +1,108 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <section class="left">
+        <header>
+            Aplikasi Manajemen Pegawai
+        </header>
+        <nav class="container">        
+            <ul class="menu">
+                <li class="upMenu"><a href="dashboard.html" class="aktif">
+                    <div class="bar">
+                        <img src="icon/Dash Hover.svg" class="icons"> 
+                        Dashboard 
+                    </div>
+                </a></li> 
+                <li class="upMenu"><a href="tabel.html" class="aktif">
+                    <div class="bar2">
+                        <img src="icon/Icon Pegawai.svg" class="icons"> 
+                        Tambah Pegawai
+                    </div>
+                </a></li> 
+                <li class="upMenu"><a href="tabel.html" class="aktif">
+                    <div class="bar">
+                        <img src="icon/work.svg" class="icons"> 
+                        Data Pegawai
+                    </div>
+                </a></li>
+                <li class="downMenu"><a href="login.html" class="aktif">
+                    <div class="bar">
+                        <img src="icon/Out.svg" class="icons"> 
+                        Keluar
+                    </div>
+                </a></li>
+            </ul>
+        </nav>
+      
+    </section>
+
+    <section class="right">
+            <div class="rightUp">
+                <h1 class="teks">Halo, Asrul Hidayat</h1>     
+                <h3 class="teks">Anda login sebagai Administrator</h3>
+            </div>
+            <div class="rightCenter">
+                <h2 class="judul">Tambah Pegawai</h2> 
+                <form action="proses.php" method="post">
+    
+                    <div class="form-group">
+                        <label for="foto">Foto</label>
+                        <div class="input"> 
+                            <input type="file" id="foo"> 
+                        </div> 
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <div class="input">
+                            <input type="text" id="nama"> 
+                        </div> 
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="jk">Jenis Kelamin</label>
+                        <input type="radio" id="jk" name="jk" value="L"> Laki-laki
+                        <input type="radio" id="jk" name="jk" value="P"> Perempuan
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="tanggal">Tanggal</label>
+                        <div class="input">
+                            <input type="date" id="tanggal">
+                        </div> 
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="jabatan">Jabatan</label> 
+                        <div class="input">
+                            <select id="jabatan">
+                                <option value="direktur">Direktur</option> 
+                                <option value="manajer">Manajer</option> 
+                                <option value="marketing">Marketing</option> 
+                                <option value="sekretaris">Sekretaris</option> 
+                                <option value="Chef">Chef</option>
+                                <option value="waiter">Waiter/Waitress</option> 
+                                <option value="kasir">Kasir</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <input type="submit" value="Simpan" class="tombol simpan"> <input type="reset" value="Batal" class="tombol reset">
+                    </div>
+                </form>
+            </div>
+        <footer>
+            Copyright &copy; 2023
+        </footer>
+    </section>
+
+</body>
+</html>
