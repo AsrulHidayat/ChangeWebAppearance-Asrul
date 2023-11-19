@@ -8,8 +8,8 @@ a cafe website display assignment where I will redesign the appearance.
 ## Perubahan dashboard 
 
 ### Link code perubahan : <br>
-HTML [Duck Duck Go](https://duckduckgo.com).<br> 
-CSS [Duck Duck Go](https://duckduckgo.com).
+HTML [Duck Duck Go]([https://duckduckgo.com](https://github.com/AsrulHidayat/ChangeWebAppearance-Asrul/blob/main/Perubahan/dashboard.html).<br> 
+CSS [Duck Duck Go]([https://duckduckgo.com](https://github.com/AsrulHidayat/ChangeWebAppearance-Asrul/blob/main/Perubahan/css/dash.css).
 
 ### Preview perubahan :
 Sebelumnya <br><br>
